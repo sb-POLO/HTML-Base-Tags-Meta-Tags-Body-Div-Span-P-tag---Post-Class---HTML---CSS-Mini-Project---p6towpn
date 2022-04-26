@@ -9,7 +9,7 @@
   margin-right: 0px;
 }
 body {
-  background-image: url("../assets/images/backgroung.jpg");
+  background-image: url("./assets/images/backgroung.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
