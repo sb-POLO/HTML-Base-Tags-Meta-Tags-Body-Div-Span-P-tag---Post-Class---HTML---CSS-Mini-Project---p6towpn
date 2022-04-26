@@ -23,21 +23,25 @@ body {
   line-height: 0.2;
 }
 .logo img {
+  position: fixed;
   float: left;
   width: 300px;
   height: auto;
   margin-top: 0px;
   margin-left: 0px;
 }
-.mid {
-  margin-top: 0px;
-  margin-bottom: 200px;
-}
-.mid img {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-left: 42%;
+.mid_body {
+  box-shadow: 0 10px 10px 0 rgba(0, 255, 0, 1), 0 10px 10px 0 rgba(0, 255, 0, 1);
+  outline: solid;
+  outline-color: black;
+  outline-width: 5px;
+  border-radius: 50px;
+  background: white;
+  width: 50%;
+  padding: 40px;
+  margin: 300px auto;
+  margin-bottom: 300px;
+  font-family: monospace;
 }
 .head1 {
   text-align: center;
@@ -45,22 +49,10 @@ body {
   color: black;
 }
 .para1 {
-  box-shadow: 0 10px 10px 0 rgba(0, 255, 0, 1), 0 10px 10px 0 rgba(0, 255, 0, 1);
-  border-radius: 50px;
-  outline: solid;
-  outline-color: black;
-  outline-width: 5px;
-  background: white;
-  width: 40%;
-  height: 10%;
-  padding: 40px;
-  margin: auto;
-  margin-top: 300px;
-  font-family: monospace;
+  padding-top: 20px;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   color: black;
-  text-shadow: 2px 2px greenyellow;
 }
 .nav_area {
   float: right;
@@ -88,12 +80,13 @@ body {
   background-size: cover;
   width: 1903px;
   height: 50px;
-  margin-top: 300px;
+  margin: 50px auto;
   margin-bottom: 0px;
   color: white;
   text-align: center;
 }
 .para2 {
   font-family: monospace;
+  margin: auto;
   padding-top: 20px;
 }

@@ -23,44 +23,39 @@ body {
   line-height: 0.2;
 }
 .logo img {
+  position: fixed;
   float: left;
   width: 300px;
   height: auto;
   margin-top: 0px;
   margin-left: 0px;
 }
-.mid {
-  margin-top: 0px;
-  margin-bottom: 200px;
-}
-.mid img {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-left: 42%;
-}
-.head1 {
+.mid_body {
+  position: fixed;
+  top: 46%;
+  right: 46%;
+  margin: auto;
+  margin-bottom: 300px;
   text-align: center;
-  font-size: 35px;
-  color: black;
+  font-family: monospace;
 }
-.para1 {
-  box-shadow: 0 10px 10px 0 rgba(0, 255, 0, 1), 0 10px 10px 0 rgba(0, 255, 0, 1);
-  border-radius: 50px;
+.mid_body a {
   outline: solid;
   outline-color: black;
   outline-width: 5px;
-  background: white;
-  width: 40%;
-  height: 10%;
-  padding: 40px;
-  margin: auto;
-  margin-top: 300px;
+  border-radius: 50px;
+  padding: 30px;
   font-family: monospace;
-  text-align: center;
-  font-size: 40px;
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
   color: black;
-  text-shadow: 2px 2px greenyellow;
+  background-color: white;
+}
+.mid_body a:hover{
+    outline-color: white;
+    background-color: black;
+    color: white;
 }
 .nav_area {
   float: right;
@@ -84,16 +79,21 @@ body {
   color: white;
 }
 .lower_body {
+    position: fixed;
+    top: 95%;
+    left: 0%;
   background-color: black;
   background-size: cover;
-  width: 1903px;
+  width: 1920px;
   height: 50px;
-  margin-top: 300px;
+  margin: auto;
+
   margin-bottom: 0px;
   color: white;
   text-align: center;
 }
 .para2 {
   font-family: monospace;
+  margin: auto;
   padding-top: 20px;
 }
