@@ -81,4 +81,4 @@ _It's currently at a very early development stage but hoping to get it available
 
 - _Email: rjsourav88@gmail.com_
 - _Instagram: @s.polo.b_
-- Twitter: @polo99321
+- _Twitter: @polo99321_
